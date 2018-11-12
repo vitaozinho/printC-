@@ -1,0 +1,30 @@
+use master 
+drop database aula 
+create database aula
+use aula 
+
+create table estados(
+idEstado int primary key identity (1,1),
+nmEstado varchar (500)
+)
+
+create table cidades (
+idCidade int primary key identity (1,1),
+nmCidade varchar (500)
+)
+
+
+insert into estados values ('São Paulo')
+
+insert into estados values ('Rio de Janeiro')
+
+insert into estados values ('Espirito Santo')
+
+insert into cidades values  ('São Paulo')
+
+insert into cidades values  ('Morro do Dende')
+
+insert into cidades values  ('Vitória')
+
+
+
